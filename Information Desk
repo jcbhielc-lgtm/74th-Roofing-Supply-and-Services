@@ -7,11 +7,38 @@
   <body>
     <h1> Information Desk </h1>
 
-    <nav>
+    <nav class="topbar">
       <ul>
-        <li> <a href = "Supply list"> Supply List </a> </li>
+        <li><a href="information-desk.html">Information Desk</a></li>
+        <li><a href="supply-list.html">Supply List</a></li>
       </ul>
     </nav>
+
+    body {
+  margin: 0;
+}
+
+.topbar {
+  background-color: red;
+  width: 100%;
+  padding: 15px 0;
+}
+
+.topbar ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+}
+
+.topbar a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+}
 
   </body>
 </html>
