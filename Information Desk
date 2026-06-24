@@ -1,44 +1,48 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <title> 74th Roofing Supply and Services </title>
-  </head>
+<head>
+  <title>74th Roofing Supply and Services - Information Desk</title>
 
-  <body>
-    <h1> Information Desk </h1>
-
-    <nav class="topbar">
-      <ul>
-        <li><a href="information-desk.html">Information Desk</a></li>
-        <li><a href="supply-list.html">Supply List</a></li>
-      </ul>
-    </nav>
-
+  <style>
     body {
-  margin: 0;
-}
+      margin: 0;
+    }
 
-.topbar {
-  background-color: red;
-  width: 100%;
-  padding: 15px 0;
-}
+    .topbar {
+      background-color: red;
+      padding: 15px 0;
+    }
 
-.topbar ul {
-  list-style: none;
-  margin: 0;
-  padding: 0;
+    .topbar ul {
+      list-style: none;
+      margin: 0;
+      padding: 0;
+      display: flex;
+      justify-content: center;
+      gap: 30px;
+    }
 
-  display: flex;
-  justify-content: center;
-  gap: 30px;
-}
+    .topbar a {
+      color: white;
+      text-decoration: none;
+      font-weight: bold;
+    }
 
-.topbar a {
-  color: white;
-  text-decoration: none;
-  font-weight: bold;
-}
+    h1 {
+      padding: 20px;
+    }
+  </style>
+</head>
 
-  </body>
+<body>
+  <nav class="topbar">
+    <ul>
+      <li><a href="information-desk.html">Information Desk</a></li>
+      <li><a href="supply-list.html">Supply List</a></li>
+    </ul>
+  </nav>
+
+  <h1>Information Desk</h1>
+
+</body>
 </html>
