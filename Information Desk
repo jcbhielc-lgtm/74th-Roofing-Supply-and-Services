@@ -7,5 +7,11 @@
   <body>
     <h1> Information Desk </h1>
 
+    <nav>
+      <ul>
+        <li> <a href = "Supply list"> Supply List </a> </li>
+      </ul>
+    </nav>
+
   </body>
 </html>
