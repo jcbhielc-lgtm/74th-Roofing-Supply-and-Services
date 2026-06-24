@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>74th Roofing Supply and Services</title>
+  <title>74th Roofing Supply and Services - Supply List</title>
 
   <style>
     body {
@@ -10,7 +10,6 @@
 
     .topbar {
       background-color: red;
-      width: 100%;
       padding: 15px 0;
     }
 
@@ -18,7 +17,6 @@
       list-style: none;
       margin: 0;
       padding: 0;
-
       display: flex;
       justify-content: center;
       gap: 30px;
@@ -45,5 +43,8 @@
   </nav>
 
   <h1>Supply List</h1>
+
+  <!-- Put your Supply List content here -->
+
 </body>
 </html>
